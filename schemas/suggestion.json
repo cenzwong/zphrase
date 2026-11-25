@@ -1,0 +1,21 @@
+{
+  "additionalProperties" : false,
+  "x-order" : [
+    "command",
+    "explanation"
+  ],
+  "required" : [
+    "command",
+    "explanation"
+  ],
+  "type" : "object",
+  "title" : "CommandSuggestion",
+  "properties" : {
+    "explanation" : {
+      "type" : "string"
+    },
+    "command" : {
+      "type" : "string"
+    }
+  }
+}
